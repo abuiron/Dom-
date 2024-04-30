@@ -1,0 +1,37 @@
+.dom{
+    text-align: center;
+    background-color: green;
+    color: yellow;
+}
+
+#btn{
+
+    padding: 0.8rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: violet;
+    color: red;
+    font-size: 1.5rem;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    transition: 1s ;
+}
+#btn:active{
+    background-color: green;
+    color: yellow;
+    border: 2px red dashed;
+
+}
+
+table{
+    border: 1px red;
+    padding: 10px;
+    background-color: green;
+    margin: 30px;
+    border-radius: 10px;
+}
+.tr11{
+    color: yellow;
+
+}
