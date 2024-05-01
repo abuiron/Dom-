@@ -3,7 +3,6 @@
     background-color: green;
     color: yellow;
 }
-
 #btn{
 
     padding: 0.8rem;
@@ -34,4 +33,63 @@ table{
 .tr11{
     color: yellow;
 
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-wrapper{
+    border: 5px grey solid;
+    text-align: center;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 5px 0px 5px 0px;
+    margin: 10px;
+}
+
+.product-image{
+    height: 200px;
+    width: 300px;
+}
+
+.pname{
+    font-size: 1.5rem;
+}
+.pprice{
+
+    background-color: midnightblue;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.pprice::before{
+    content: "$ ";
+}
+.dprice{
+
+    background-color: red;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.dprice:before{
+    content: " ";
+}
+.bt{
+    padding: 5px;
+    display: block;
+    margin-left: 100px;
+    background-color: yellow;
+    font-size: 1.3rem;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
